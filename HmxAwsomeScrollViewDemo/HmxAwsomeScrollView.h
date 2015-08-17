@@ -13,6 +13,7 @@
 
 @protocol HmxAwsomeScrollViewDelegate <NSObject>
 
+@optional
 - (void)clickSomething:(NSInteger)index;
 
 @end
